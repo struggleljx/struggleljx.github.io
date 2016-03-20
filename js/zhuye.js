@@ -1,4 +1,6 @@
 $(function() {
+	var hh=$(window).height()*0.5;
+	$('.neirong').css({height: hh});
 	$('.fa').click(function(){
 		$('#footer').css({display: 'none'});
 	})

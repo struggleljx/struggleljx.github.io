@@ -1,28 +1,28 @@
 #header{
-	top:0px;
+	top:0;
 }
 
 .neirong{
 	display: none;
 	width: 100%;
-	height: 380px;
 	border-radius: 20px;
 	opacity: 0;
+	background: #fff;
 }
 .neirong1{
 	background: #fff;
 }
 .neirong2{
-	background: red;
+	background: #fff;
 }
 .neirong3{
-	background: yellow;
+	background: #fff;
 }
 .neirong4{
-	background: blue;
+	background: #fff;
 }
 .neirong5{
-	background: pink;
+	background: #fff;
 }
 #header nav{
 	bottom: -350px;
