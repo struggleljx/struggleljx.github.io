@@ -1,13 +1,31 @@
 #header{
 	top:0;
 }
+#header h1{
+	cursor: pointer;
+}
 
 .neirong{
+	position: relative;
 	display: none;
-	width: 100%;
+	width: 80%;
+	margin-left: 10%;
 	border-radius: 20px;
 	opacity: 0;
 	background: #fff;
+	font-family: "微软雅黑";
+}
+@media(max-width: 740px){
+	.neirong{
+	position: relative;
+	display: none;
+	width: 100%;
+	margin-left: 0;
+	border-radius: 20px;
+	opacity: 0;
+	background: #fff;
+	font-family: "微软雅黑";
+	}
 }
 .neirong1{
 	background: #fff;
@@ -23,6 +41,44 @@
 }
 .neirong5{
 	background: #fff;
+}
+.close{
+	z-index: 999;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+}
+.close:hover{
+	background: rgba(0,0,0,0.1);
+}
+.zhaopian{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	width: 40%;
+	left: 0;
+}
+.gerengjieshao{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	width: 60%;
+}
+.zhaopian img{
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-top: -100px;
+	margin-left: -70px;
 }
 #header nav{
 	bottom: -350px;

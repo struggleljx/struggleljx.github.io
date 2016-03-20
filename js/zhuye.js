@@ -50,4 +50,7 @@ $(function() {
 		}
 	})
 
+	$('.zhuye').click(function(){
+		$('.neirong').css({display: 'none'});
+	})
 })
