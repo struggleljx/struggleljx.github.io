@@ -40,22 +40,22 @@ $(function() {
 			$(this).css({display: 'block'}).animate({opacity: 1},600);
 		}
 		      $(".c1").animate({
-				  height: "98%"
+				  height: "60%"
 			  },2000);
 			  $(".c2").animate({
-				  height: "98%"
+				  height: "50%"
 			  },2000)
 			  $(".c3").animate({
-				  height: "99%"
+				  height: "55%"
 			  },2000)
 			  $(".c4").animate({
-				  height: "99%"
+				  height: "10%"
 			  },2000)
 			  $(".c5").animate({
-				  height: "90%"
+				  height: "10%"
 			  },2000)
 			  $(".c6").animate({
-				  height: "90%"
+				  height: "10%"
 			  },2000)
 	})
 	$neirong.bind('swipeRight',function(){
@@ -66,22 +66,22 @@ $(function() {
 			$(this).css({display: 'block'}).animate({opacity: 1},600);
 		}
 		      $(".c1").animate({
-				  height: "98%"
+				  height: "60%"
 			  },2000);
 			  $(".c2").animate({
-				  height: "98%"
+				  height: "55%"
 			  },2000)
 			  $(".c3").animate({
-				  height: "99%"
+				  height: "50%"
 			  },2000)
 			  $(".c4").animate({
-				  height: "99%"
+				  height: "10%"
 			  },2000)
 			  $(".c5").animate({
-				  height: "90%"
+				  height: "10%"
 			  },2000)
 			  $(".c6").animate({
-				  height: "90%"
+				  height: "10%"
 			  },2000)
 	})
 
@@ -92,22 +92,22 @@ $(function() {
 	   
 	   $('.btn3').click(function(){
 	      $(".c1").animate({
-			  height: "98%"
+			  height: "60%"
 		  },2000);
 		  $(".c2").animate({
-			  height: "98%"
+			  height: "55%"
 		  },2000)
 		  $(".c3").animate({
-			  height: "99%"
+			  height: "50%"
 		  },2000)
 		  $(".c4").animate({
-			  height: "99%"
+			  height: "10%"
 		  },2000)
 		  $(".c5").animate({
-			  height: "90%"
+			  height: "10%"
 		  },2000)
 		  $(".c6").animate({
-			  height: "90%"
+			  height: "10%"
 		  },2000)
 
 	   })	
