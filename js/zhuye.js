@@ -69,10 +69,10 @@ $(function() {
 				  height: "60%"
 			  },2000);
 			  $(".c2").animate({
-				  height: "55%"
+				  height: "50%"
 			  },2000)
 			  $(".c3").animate({
-				  height: "50%"
+				  height: "55%"
 			  },2000)
 			  $(".c4").animate({
 				  height: "10%"
@@ -95,10 +95,10 @@ $(function() {
 			  height: "60%"
 		  },2000);
 		  $(".c2").animate({
-			  height: "55%"
+			  height: "50%"
 		  },2000)
 		  $(".c3").animate({
-			  height: "50%"
+			  height: "55%"
 		  },2000)
 		  $(".c4").animate({
 			  height: "10%"
